@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Phone, Xmark, MenuScale } from "iconoir-react"; // Importing icons for phone, close, and menu
-import logo from "../../assets/navbar/images.png"; // Importing Prestige Logo
+import logo from "../../assets/navbar/godrejlogo.png"; // Importing Prestige Logo
 import { Link } from "react-router-dom"; // Importing Link for routing
  import arrow from "../../assets/navbar/whitearrow.png";
 
@@ -124,10 +124,10 @@ export const Navbar = ({ sitevisitmodal, setSiteVisitModal, setContactModal }) =
           {/* Call Button */}
           <div className="hidden lg:flex items-center">
             <a
-              href="tel:+919036958110"
+              href="tel:+916364254487"
               className="flex items-center bg-PrestigeBrown text-white px-4 py-2 rounded-lg shadow-lg hover:bg-opacity-90 transition"
             >
-              <Phone className="w-5 h-5 mr-2" /> 9036958110
+              <Phone className="w-5 h-5 mr-2" /> 63642 54487
             </a>
           </div>
         </div>

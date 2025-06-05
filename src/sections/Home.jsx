@@ -1,4 +1,4 @@
-import herobanner from "../assets/gallery/gallery_img4.jpg"; // Importing hero banner background image
+import herobanner from "../assets/home/unnamed.webp"; // Importing hero banner background image
 import Button from "../components/button/buttonMain"; // Importing the Button component for reusability
 import homeLocation from "../assets/home/location.svg"; // Importing location icon
 import { useEffect, useState } from "react";
@@ -27,8 +27,8 @@ export const Home = ({ contactmodal, setContactModal }) => {
 
   const overlayStyle = {
     backgroundImage: isMobile
-      ? "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.4), rgba(0,0,0,0.5) )"
-      : "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
+      ? "linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.2), rgba(0,0,0,0.2) )"
+      : "linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2))",
     padding: "2rem",
     height: "100%",
   };
@@ -58,12 +58,12 @@ export const Home = ({ contactmodal, setContactModal }) => {
               <div className="flex gap-4 flex-col w-full">
                 {/* Main Title */}
                 <h1 className="font-subheading text-3xl md:text-6xl font-semibold uppercase">
-                 Prestige Gardenia
+                Godrej Lakeside Orchard
                 </h1>
 
                 {/* Subtitle */}
                 <p className="font-body text-white md:text-2xl text-sm font-normal lg:w-4/6 mx-auto lg:mx-0">
-                A Premium Plotted Development in Devanahalli.
+                Luxury Apartments on Sarjapur Road, Bengaluru
                   
                 </p>
               </div>
@@ -78,7 +78,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
                     />
                   </div>
                   <p className="max-w-96 font-body font-semibold text-left text-white md:text-2xl text-sm">
-                    STRR{/* Location name */}
+                    Chikkakannalli{/* Location name */}
                   </p>
                 </div>
               </div>

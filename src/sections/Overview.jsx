@@ -1,6 +1,7 @@
 import React from 'react';
-import image from '../assets/gallery/image7.png';
+import image from '../assets/overview/image.png';
 import Button from '../components/button/buttonMain';
+import { Bold } from 'iconoir-react';
 
 // Overview Component
 export const Overview = ({ contactmodal, setContactModal }) => {
@@ -17,15 +18,29 @@ export const Overview = ({ contactmodal, setContactModal }) => {
           </h1>
           <p className="max-w-2xl md:text-base text-sm text-black font-body font-light">
           <span className="font-body font-bold text-xs md:text-lg ">
-         Prestige Gardenia – Premium Plotted Development in Devanahalli. <p>The plotted development extends over an area of 50 acres and hosts the best plots of dimension range of 1,500 sq. ft. to 4,000 sq. ft. in the heart of the city. </p>
+         Godrej Lakeside Orchard
+A premier residential development on Sarjapur Main Road, Bangalore.
 
           </span>
           <br />
-          
+          <br/>
             <span>
-            <p>The project has 35+ modern amenities, including children’s play areas, fitness centres, swimming pools, a spa, a gym, a library, etc.   </p>
+            <p>
+   <b> Homes:</b> 3, 3.5, and 4.5 BHK with lake views and private balconies.
+<br/>
+    <b>Exclusive Living: </b>Only 4 flats per floor, minimal shared walls for privacy.
+<br/>
+   <b> Green Spaces:</b> 6 acres of open space, 700+ trees, and 1.9 acres of podium greenery.
+<br/>
+    <b>Amenities:</b> 40+ including a gym, butterfly park, swimming pool, and more.
+ </p>
             <br/>
-            <p>These ready to build plots in Bangalore come with wide internal roads and underground utilities. Whether you’re planning to construct your dream home or invest in residential plots near Bangalore Airport, Prestige Gardenia is the perfect place.</p>
+            <p><b>Prime Location</b>
+<br/>
+    Nearby: Top schools, hospitals, malls, and tech parks.
+
+    Commuting: Easy access to major roads, Carmelaram Railway Station, and upcoming metro.
+</p>
 
             
 

@@ -4,8 +4,8 @@ import bhk1 from '../assets/gallery/image5.jpg';
 import bhk2 from '../assets/gallery/image9.png';
 import bhk3 from '../assets/gallery/16.webp';
 import bhk5 from '../assets/gallery/image2.jpg';
-import bhk4 from '../assets/home/HOME.webp';
-
+import bhk4 from '../assets/footer/image.png';
+import bhk6 from '../assets/home/image.png';
 const Pricing = ({ setContactModal, contactmodal, formSubmitted }) => {
   const [activeTab, setActiveTab] = useState(0);
   const [isUnlocked, setIsUnlocked] = useState(false);
@@ -24,9 +24,9 @@ const Pricing = ({ setContactModal, contactmodal, formSubmitted }) => {
   };
 
   const propertyTypes = [
-
-    { type: "2,400 sq.ft ", price: "₹ 3.25 Cr ++",  image: bhk5 },
-    { type: "4,000 sq.ft ", price: "₹ 3.25 Cr ++",  image: bhk5 },
+{ type: "3 BHK", price: "₹ 3.25 Cr ++",  image: bhk3 },
+    { type: "3.5 BHK ", price: "₹ 3.25 Cr ++",  image: bhk6 },
+    { type: "4 BHK ", price: "₹ 3.25 Cr ++",  image: bhk4 },
     // { type: "4 BHK Grande", price: "₹ 3.55 Cr ++", size: "2203 Sq.ft.", image: bhk2 },
   ];
 
@@ -34,7 +34,7 @@ const Pricing = ({ setContactModal, contactmodal, formSubmitted }) => {
     <section id="Pricing" className="bg-PrestigeGrey py-10 md:pt-20">
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center">
         <h2 className="text-black w-full text-center font-subheading font-normal text-3xl md:text-5xl uppercase">
-          Available Plots
+          Configurations
         </h2>
 
         <div className="flex flex-wrap justify-center gap-10 items-center py-10 px-10 lg:py-12">
