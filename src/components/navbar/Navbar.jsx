@@ -25,7 +25,7 @@ export const Banner = ({ setContactModal }) => {
     (isBannerVisible) && (
       <div className="w-screen bg-black text-white text-center p-[10px] flex justify-center items-center gap-[16px] max-h-[40px] z-30">
         <span className={`font-sans font-semibold ${isMobile ? "text-[14px] leading-[14px]" : "text-[18px] leading-[17.63px]"}`}>
-          Exclusive Pre-launch price and offers{" "}
+          Exclusive prices and offers{" "}
         </span>
         <div className="flex items-center justify-center gap-[4px] cursor-pointer" onClick={() => setContactModal(true)}>
           <span className={`font-sans font-semibold ${isMobile ? "text-[14px] leading-[14px]" : "text-[18px] leading-[17.63px]"} hover:underline hover:decoration-white`}>Get it now</span>
