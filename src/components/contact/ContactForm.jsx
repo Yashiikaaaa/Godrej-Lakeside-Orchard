@@ -117,7 +117,7 @@ const ContactForm = ({ contactmodal, setContactModal, setSiteVisitModal }) => {
       campaign: true,
       projectId: "nQ5C5BCtzT53w4Wn0CcZ",
       projectName: "godrej lakeside orchard",
-      currentAgent: "srihitha@truestate.in",
+      currentAgent: "srihitha@canvas-homes.com",
       utmDetails: {
         campaignId: utmParams.utmCampaignId || null,
         source: utmParams.utmSource || null,
