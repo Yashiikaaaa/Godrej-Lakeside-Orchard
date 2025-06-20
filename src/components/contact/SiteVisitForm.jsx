@@ -152,7 +152,7 @@ export const SiteVisitForm = ({ sitevisitmodal, setSiteVisitModal }) => {
   
     const propertyId = "nQ5C5BCtzT53w4Wn0CcZ"; // Example property ID
     const projectName = "godrej lakeside orchard"; // Example project name
-  const currentAgent = "srihitha@canvas-homes.com";
+  const currentAgent = "srihitha@truestate.in";
     const payload = {
       name: normalizedName,
       phonenumber: normalizedNumber,
