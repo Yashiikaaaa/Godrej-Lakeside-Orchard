@@ -117,7 +117,7 @@ const ContactForm = ({ contactmodal, setContactModal, setSiteVisitModal }) => {
       campaign: true,
       projectId: "nQ5C5BCtzT53w4Wn0CcZ",
       projectName: "godrej lakeside orchard",
-      currentAgent: "srihitha@truestate.in",
+      currentAgent: "srihitha.reddy@truestate.in",
       utmDetails: {
         campaignId: utmParams.utmCampaignId || null,
         source: utmParams.utmSource || null,
